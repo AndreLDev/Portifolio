@@ -5,6 +5,8 @@
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
     color: white;
     background: rgb(1,0,23);
     background: linear-gradient(120deg, rgba(1,0,23,1) 0%, rgba(0,104,119,1) 41%, rgba(72,0,93,1) 100%);
@@ -62,4 +64,11 @@ a:hover{
     .main::after, .main::before{
         width: 70vw;
     }
+}
+
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
